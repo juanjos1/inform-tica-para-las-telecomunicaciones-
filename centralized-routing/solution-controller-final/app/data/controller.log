@@ -1,0 +1,33 @@
+2026-06-14 21:39:46,087 [INFO] Controller application initialised
+2026-06-14 21:39:46,088 [INFO] Server started [TCP] on 127.0.0.1:9000
+2026-06-14 21:39:46,089 [INFO] TCP server listening on 127.0.0.1:9000
+2026-06-14 21:43:06,880 [INFO] Connection from ('127.0.0.1', 53354)
+2026-06-14 21:43:06,901 [INFO] Router registered: Router(id=R1, ip=127.0.0.1, port=5001)
+2026-06-14 21:43:27,092 [INFO] Connection from ('127.0.0.1', 64519)
+2026-06-14 21:43:27,113 [INFO] Router registered: Router(id=R2, ip=127.0.0.2, port=5002)
+2026-06-14 21:47:16,877 [INFO] Connection from ('127.0.0.1', 52599)
+2026-06-14 21:47:16,899 [INFO] Link cost updated R1->34: 4.0
+2026-06-14 21:47:16,905 [INFO] Routing tables computed for: ['R1', 'R2']
+2026-06-15 10:02:37,268 [INFO] Controller application initialised
+2026-06-15 10:02:37,270 [INFO] Server started [TCP] on 127.0.0.1:9000
+2026-06-15 10:02:37,271 [INFO] TCP server listening on 127.0.0.1:9000
+2026-06-15 10:15:45,615 [INFO] Controller application initialised
+2026-06-15 10:15:45,617 [INFO] Server started [TCP] on 127.0.0.1:9000
+2026-06-15 10:15:45,618 [INFO] TCP server listening on 127.0.0.1:9000
+2026-06-15 10:16:30,233 [INFO] Router removed from registry: R1
+2026-06-15 10:16:53,840 [INFO] Controller application initialised
+2026-06-15 10:16:53,842 [INFO] Server started [TCP] on 127.0.0.1:9000
+2026-06-15 10:16:53,843 [INFO] TCP server listening on 127.0.0.1:9000
+2026-06-15 10:29:09,029 [INFO] Router removed from registry: R2
+2026-06-15 10:29:13,424 [INFO] Controller application initialised
+2026-06-15 10:29:13,425 [INFO] Server started [TCP] on 127.0.0.1:9000
+2026-06-15 10:29:13,427 [INFO] TCP server listening on 127.0.0.1:9000
+2026-06-15 10:32:07,316 [INFO] Controller application initialised
+2026-06-15 10:32:07,318 [INFO] Server started [TCP] on 127.0.0.1:9000
+2026-06-15 10:32:07,319 [INFO] TCP server listening on 127.0.0.1:9000
+2026-06-15 10:32:21,527 [INFO] Connection from ('127.0.0.1', 51982)
+2026-06-15 10:32:21,535 [INFO] Router registered: Router(id=R1, ip=127.0.0.1, port=5001)
+2026-06-15 10:32:33,232 [INFO] Router removed from registry: R1
+2026-06-15 10:32:33,236 [INFO] Router 'R1' removed from topology
+2026-06-15 10:32:33,240 [INFO] Routing tables computed for: ['R2']
+2026-06-15 10:32:33,240 [INFO] Router 'R1' fully removed: registry + topology + routing tables recomputed

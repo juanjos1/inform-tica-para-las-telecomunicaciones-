@@ -1,0 +1,7 @@
+{
+  "_comment": "Edit these values before starting each router instance",
+  "router_id": "R1",
+  "ip": "127.0.0.1",
+  "port": 5001,
+  "protocol": "tcp"
+}

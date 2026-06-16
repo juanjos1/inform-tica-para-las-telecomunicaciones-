@@ -1,0 +1,85 @@
+[
+  {
+    "timestamp": "2026-06-14T21:43:06.899192",
+    "event": "REGISTER",
+    "detail": {
+      "router_id": "R1",
+      "ip": "127.0.0.1",
+      "port": 5001
+    }
+  },
+  {
+    "timestamp": "2026-06-14T21:43:27.111115",
+    "event": "REGISTER",
+    "detail": {
+      "router_id": "R2",
+      "ip": "127.0.0.2",
+      "port": 5002
+    }
+  },
+  {
+    "timestamp": "2026-06-14T21:47:16.896993",
+    "event": "LINK_COST_UPDATE",
+    "detail": {
+      "source": "R1",
+      "destination": "34",
+      "cost": 4.0
+    }
+  },
+  {
+    "timestamp": "2026-06-14T21:47:16.903241",
+    "event": "ROUTE_COMPUTATION",
+    "detail": {
+      "nodes": [
+        "R1",
+        "R2"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-06-15T10:16:30.230663",
+    "event": "ROUTER_REMOVED",
+    "detail": {
+      "router_id": "R1"
+    }
+  },
+  {
+    "timestamp": "2026-06-15T10:29:09.028222",
+    "event": "ROUTER_REMOVED",
+    "detail": {
+      "router_id": "R2"
+    }
+  },
+  {
+    "timestamp": "2026-06-15T10:32:21.532418",
+    "event": "REGISTER",
+    "detail": {
+      "router_id": "R1",
+      "ip": "127.0.0.1",
+      "port": 5001
+    }
+  },
+  {
+    "timestamp": "2026-06-15T10:32:33.230536",
+    "event": "ROUTER_REMOVED",
+    "detail": {
+      "router_id": "R1"
+    }
+  },
+  {
+    "timestamp": "2026-06-15T10:32:33.234674",
+    "event": "TOPOLOGY_ROUTER_REMOVED",
+    "detail": {
+      "router_id": "R1"
+    }
+  },
+  {
+    "timestamp": "2026-06-15T10:32:33.238630",
+    "event": "ROUTE_COMPUTATION",
+    "detail": {
+      "nodes": [
+        "R2"
+      ]
+    }
+  }
+]
